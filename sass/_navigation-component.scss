@@ -1,0 +1,21 @@
+.nav-utility-wrapper {
+  background: $ameren-blue;
+  height: 80px;
+  margin: 0 0 1rem;
+
+  .nav-utility {
+    display: block;
+    height: 100%;
+    position: relative;
+    right: 0;
+
+    .nav-utility-item {
+      border-left: 1px solid $ameren-blue-dark;
+      display: inline-block;
+      height: 100%;
+      list-style-type: none;
+      width: 80px;
+    }
+  }
+
+}
